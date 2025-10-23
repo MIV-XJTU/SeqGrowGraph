@@ -7,8 +7,7 @@
 
 
 
-**SeqGrowGraph**  learns lane topology by incrementally expanding a directed lane graph—adding one vertex at a time, enlarging the adjacency matrix from **n×n** to **(n+1)×(n+1)** to encode connectivity and serializing the growing graph.
-
+**SeqGrowGraph** incrementally builds a directed lane graph by adding one vertex at a time, expanding the adjacency matrix from **n×n** to **(n+1)×(n+1)** to encode connectivity, and serializing the evolving graph into sequences.
 
 
 </div>
