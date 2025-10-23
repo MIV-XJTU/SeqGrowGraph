@@ -9,7 +9,7 @@
 
 **SeqGrowGraph** incrementally builds a directed lane graph by adding one vertex at a time, expanding the adjacency matrix from **n×n** to **(n+1)×(n+1)** to encode connectivity, and serializing the evolving graph into sequences, inspired by human map-drawing processes for robust, efficient topology learning.
 
-https://github.com/user-attachments/assets/6934b315-6f89-4e21-93e8-b0a20c660daf
+https://github.com/user-attachments/assets/19ead81d-94d7-4571-96fa-f19dd916002a
 </div>
 
 ## Table of Contents
