@@ -97,7 +97,7 @@ Next, train the model for lane-graph learning.
 ```
 
 ## 🎯 Test & Visualization
-Run  `projects/SeqGrowGraph/scripts/test.sh` to perform inference on the test dataset without training.
+Run  `projects/SeqGrowGraph/scripts/test.sh` to perform inference on the test dataset without training. Please download the [ckpt](https://www.modelscope.cn/models/misstl/SeqGrowGraph) from ModelScope.
 
 ```bash
 ./tools/dist_test.sh projects/configs/seq_grow_graph/seq_grow_graph_default.py /path/to/your/checkpoint $GPU_NUM
