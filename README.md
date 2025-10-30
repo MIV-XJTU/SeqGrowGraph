@@ -3,8 +3,9 @@
 <h1> <img src="assets/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> SeqGrowGraph: Learning Lane Topology as a Chain of Graph Expansions </h1>
 <h3 align="center"><strong>🎉🎉ICCV 2025🎉🎉</strong></h3>
 
-<a href="https://arxiv.org/pdf/2507.04822"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
 
+[![arXiv](https://img.shields.io/badge/arXiv-2507.04822-red)](https://arxiv.org/pdf/2507.04822)
+[![HuggingFace](https://img.shields.io/badge/🏆-Model-yellow)](https://www.modelscope.cn/models/misstl/SeqGrowGraph)
 
 
 **SeqGrowGraph** incrementally builds a directed lane graph by adding one vertex at a time, expanding the adjacency matrix from **n×n** to **(n+1)×(n+1)** to encode connectivity, and serializing the evolving graph into sequences, inspired by human map-drawing processes for robust, efficient topology learning.
