@@ -83,7 +83,7 @@ See `projects/SeqGrowGraph/scripts/train.sh` for the code.
 
 1、Pre-train
 
-Begin by pretraining the model on a segmentation task.
+Begin by pretraining the model on a segmentation task. Download ResNet-50 Deeplab-V3-Plus checkpoint [here](https://download.openmmlab.com/mmsegmentation/v0.5/deeplabv3plus/deeplabv3plus_r50-d8_512x1024_80k_cityscapes/deeplabv3plus_r50-d8_512x1024_80k_cityscapes_20200606_114049-f9fb496d.pth)
 ```bash
 
 ./tools/dist_train.sh ./projects/SeqGrowGraph/configs/road_seg/lss_roadseg_48x32_b4x8_resnet_adam_24e.py $GPU_NUM
